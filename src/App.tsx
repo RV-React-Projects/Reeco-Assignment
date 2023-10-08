@@ -42,7 +42,11 @@ function Layout() {
   return (
     <div>
       <Header />
-      <Outlet />
+      <div
+      // style={{ padding: "0 5%" }}
+      >
+        <Outlet />
+      </div>
     </div>
   )
 }

@@ -1,42 +1,67 @@
 .nav_main {
   display: inline-block;
   text-decoration: none;
-  background-color: #135c05;
+  background-color: #1e633f;
   list-style: none;
   // width: 100%;
+  height: 80px;
   max-width: 100vw;
   max-height: 100px;
   padding: 0 5%;
   overflow: hidden;
   display: flex;
-  flex: 1;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  li {
-    display: inline-block;
-    margin: 0 10px;
-    text-decoration: none;
-    a {
+    height: 100%;
+    align-items: center;
+    li {
+      // background-color: #fff;
+      display: inline-block;
+      padding: 0 10px;
       text-decoration: none;
-      color: white !important;
-      text-align: center;
-      align-items: center;
-      align-self: center;
-      justify-content: center;
+      height: 100%;
+      // :hover {
+      //   background-color: white;
+      //   color: #1e633f;
+      //   height: 100%;
+      // }
+      a {
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        height: 100%;
+        color: white;
+        //   :hover {
+        //     // background-color: #fff;
+        //     color: #1e633f;
+        //   }
+      }
     }
-    a:hover {
-      background-color: #fff;
-      color: #135c05;
-    }
+    // li:hover {
+    //   // background-color: #fff;
+    //   color: #1e633f;
+    // }
   }
-  li:hover {
-    background-color: #fff;
-    color: #135c05;
-  }
+}
+.more_icon {
+  // position: absolute;
+  height: 20px;
+}
+svg {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.shop_icon {
+  height: 20px;
 }

@@ -1,0 +1,22 @@
+.home_hedaer {
+  padding: 1% 5%;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  .ord_head {
+    font-weight: 500;
+    font-size: 1em;
+    // color: ;
+  }
+  .ord_main_section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    .button_group {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
