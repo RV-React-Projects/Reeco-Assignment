@@ -50,7 +50,7 @@ export default function ListsCard() {
     return <Slide direction="up" ref={ref} {...props} />
   })
 
-  const rejectOrd = (id: number) => {
+  const rejectOrd = (id: any) => {
     appDisPatch(rejectOrder(id))
   }
 
