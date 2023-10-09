@@ -3,14 +3,13 @@ import Button from "@mui/material/Button"
 import styled from "styled-components"
 import "../scss/Home_header.scss"
 import { HorizontalSpace } from "../components/CommonComponents"
-import { ArrowRight } from "@mui/icons-material"
 
 export default function HomeHeader() {
   return (
     <div className="home_hedaer">
-      <p className="ord_head">Orders > Orders 387894893849</p>
+      <p className="ord_head">Orders {">"} Orders 387894893849</p>
       <div className="ord_main_section">
-        <h3 className="ord_main">Order 387894893849</h3>
+        <h2 className="ord_main">Order 387894893849</h2>
         <div className="button_group">
           <Button
             variant="outlined"

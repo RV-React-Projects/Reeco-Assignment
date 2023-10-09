@@ -1,11 +1,19 @@
 import React from "react"
 import HomeHeader from "../PageComponents/HomeHeader"
+import SellerDetails from "../PageComponents/SellerDetails"
+import OrderList from "../PageComponents/OrderList"
+import "../scss/home.scss"
 
 export default function Home() {
   return (
-    <div>
+    <>
       <HomeHeader />
-      <h2>Home Page</h2>
-    </div>
+      <div style={{ margin: "2% 5%" }}>
+        <SellerDetails />
+      </div>
+      <div style={{ margin: "2% 5%" }}>
+        <OrderList />
+      </div>
+    </>
   )
 }
